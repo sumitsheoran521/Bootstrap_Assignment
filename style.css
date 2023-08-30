@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap");
+
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  font-family: "Urbanist", sans-serif;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.hero-section {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.5),
+      rgba(22, 22, 22, 0.5)
+    ),
+    url("./images/main.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 6rem 0;
+  overflow: hidden;
+}
+hero-section-search {
+  width: 80%;
+}
+
+.goo {
+  color: #ef6923;
+}
+
+.ibibo {
+  color: #2767a7;
+}
+
+.com {
+  color: black;
+}
+
+.second-hero-section {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.5),
+      rgba(22, 22, 22, 0.5)
+    ),
+    url("./images/second.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 6rem 0;
+  overflow: hidden;
+}
